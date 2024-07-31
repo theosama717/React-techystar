@@ -1,0 +1,51 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 2em 0;
+    background: white;
+    position: relative;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div h2 {
+    color: #5853ff;
+    text-transform: uppercase;
+    font-size: max(2.5vw, 1.5rem);
+}
+
+footer div h2 + p {
+    font-size: max(1.5vw, 1rem);
+}
+
+footer .follow {
+    font-size: max(2.5vw, 1.5rem);
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+footer .links a {
+    font: 600 1rem cursive;
+}
+
+@media all and (min-width: 700px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        padding: 3em 4em;
+    }
+
+    
+}
